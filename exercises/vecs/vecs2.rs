@@ -18,7 +18,7 @@ fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
 
 fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     v.iter().map(|element| {
-        *m * 2
+        *element * 2
     }).collect()
 }
 
